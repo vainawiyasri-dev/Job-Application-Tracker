@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+📝 Job Application Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Job Application Tracker is a frontend React application to manage and track job applications. Users can add, view, search, filter, sort, paginate applications, and see a dashboard summary of application statuses.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+🔑 User Authentication (Fake)
 
-### `npm start`
+Login system with roles (user and manager)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📝 Add Job Applications
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Form with validation and optional notes
 
-### `npm test`
+📊 Applications Table
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Search by company name or job title
 
-### `npm run build`
+Filter by job type and status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sort by company name or applied date
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pagination (5 applications per page)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Delete application functionality
 
-### `npm run eject`
+📈 Dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Summary cards: Total, Applied, Interview Scheduled, Selected, Rejected
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Last 5 applications list
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎨 Professional UI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Responsive, modern styling with cards, hover effects, shadows
 
-## Learn More
+🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+⚛️ Frontend: React.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 Routing: React Router v6
 
-### Code Splitting
+🗂️ State Management: Context API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🎨 Styling: CSS
 
-### Analyzing the Bundle Size
+🛠️ Tools: Node.js, npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🗂️ Project Structure
+job-tracker/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ...
+├── src/
+│   ├── components/       # Navbar, RequireAuth, etc.
+│   ├── contexts/         # AuthContext, AppDataContext
+│   ├── pages/            # Home, Login, Dashboard, Applications, AddApplication, NotFound
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── package-lock.json
 
-### Making a Progressive Web App
+📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Login Page
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Applications Table
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Dashboard Summary
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Replace the above placeholders with actual screenshots from your project.
+
+🚀 How to Run Locally
+
+Clone the repository:
+
+git clone https://github.com/your-username/job-application-tracker.git
+
+
+Navigate to the project folder:
+
+cd job-application-tracker
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open http://localhost:3000
+ in your browser.
+
+🌐 Deployment
+
+You can deploy the app online using:
+
+🌐 Netlify: https://www.netlify.com/
+
+🌐 Vercel: https://vercel.com/
+
+🌐 Render: https://render.com/
+
+📄 License
+
+This project is for educational purposes.
+
+💡 Notes
+
+This is a frontend-only React project.
+
+Job applications are stored temporarily in React state (no backend).
+
+Styling is fully responsive and professional.
+
+The project demonstrates React Router, Context API, forms, tables, search, filter, sort, pagination, and dashboard summary.
