@@ -53,15 +53,16 @@ job-tracker/
 │   ├── favicon.ico
 │   └── ...
 ├── src/
-│   ├── components/       # Navbar, RequireAuth, etc.
-│   ├── contexts/         # AuthContext, AppDataContext
+│   ├── components/       # Navbar, RequireAuth, Table, Filters, etc.
+│   ├── contexts/         # AuthContext.js, AppDataContext.js
 │   ├── pages/            # Home, Login, Dashboard, Applications, AddApplication, NotFound
 │   ├── App.css
 │   ├── App.js
 │   └── index.js
 ├── .gitignore
 ├── package.json
-└── package-lock.json
+├── package-lock.json
+└── README.md
 
 📸 Screenshots
 
