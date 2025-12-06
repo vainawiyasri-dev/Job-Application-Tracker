@@ -67,15 +67,10 @@ job-tracker/
 📸 Screenshots
 
 Login Page
-
-
 Applications Table
+Dashboard Summary with 10+ Screenshots
 
 
-Dashboard Summary
-
-
-Replace the above placeholders with actual screenshots from your project.
 
 🚀 How to Run Locally
 
