@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
 
 function Home() {
   const features = [
@@ -78,4 +78,5 @@ function Home() {
 }
 
 export default Home;
+
 
