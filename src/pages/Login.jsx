@@ -31,7 +31,7 @@ function Login() {
 
   return (
     <div>
-      <h2>Login</h2>
+
 
       {error && <p style={{ color: "red" }}>{error}</p>}
 
@@ -65,3 +65,4 @@ function Login() {
 }
 
 export default Login;
+
