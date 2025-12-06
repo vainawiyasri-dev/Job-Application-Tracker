@@ -54,7 +54,7 @@ function Dashboard() {
                 <td>{app.type}</td>
                 <td>{app.status}</td>
                 <td>{app.location}</td>
-                <td>{app.appliedDate}</td>
+          
               </tr>
             ))}
           </tbody>
@@ -65,4 +65,5 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
 
