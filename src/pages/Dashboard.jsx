@@ -43,7 +43,7 @@ function Dashboard() {
               <th>Job Type</th>
               <th>Status</th>
               <th>Location</th>
-              <th>Applied Date</th>
+             
             </tr>
           </thead>
           <tbody>
@@ -65,3 +65,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
