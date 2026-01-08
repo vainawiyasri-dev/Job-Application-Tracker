@@ -4,7 +4,7 @@ Job Application Tracker is a frontend React application to manage and track job 
 
 ✨ Features
 
-🔑 User Authentication (Fake)
+🔑 User Authentication (Test)
 
 Login system with roles (user and manager)
 
